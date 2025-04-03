@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", //versao javascript
+    "outDir": "./dist/js/", //onde coloca todos os arquivos ao copilar
+    "noEmitOnError": true, //só deve gerar um arquivo js quando todos os erros forem corrigidos (compilar)
+  },
+  "include": [
+    "./src/**/*" //compilar todos os arquivos da pasta src
+  ]
+}
