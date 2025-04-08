@@ -1,5 +1,5 @@
 import { formatarMoeda } from "../utils/formatters.js";
-import Conta from "../types/conta.js";
+import Conta from "../types/ContaNova.js";
 const elementoSaldo = document.querySelector('.saldo-valor .valor');
 renderizarSaldo();
 export function renderizarSaldo() {

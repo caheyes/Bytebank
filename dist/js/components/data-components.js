@@ -1,4 +1,4 @@
-import Conta from "../types/conta.js";
+import Conta from "../types/ContaAntiga.js";
 import { FormatoData } from "../types/FormatoData.js";
 import { formatarData } from "../utils/formatters.js";
 const elementoDataAcesso = document.querySelector('.block-saldo time');
